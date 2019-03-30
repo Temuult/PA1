@@ -80,7 +80,7 @@ void toggleh(){
 int main(int argc, char **argv){
 	int chose,stop=1;	
 	while(stop){
-		printf("\n********************************************************************************\nThis is bingo communication program to dogdoor.Choose from following operations:\n\n1. Get log of the names of file that user has recently accesed\n2. Prevent a kill to a specified process \n3. Toggle hide dogdoor \n4. Exit\n->");	
+		printf("\n********************************************************************************\nThis is bingo communication program to dogdoor.Choose from following operations:\n\n1. Get log1 of the names of file that user has recently accesed\n2. Prevent a kill to a specified process \n3. Toggle hide dogdoor \n4. Exit\n->");	
 		scanf("%d",&chose);
 		switch(chose){
 			case 1: getlog();break;	
@@ -91,4 +91,4 @@ int main(int argc, char **argv){
 		}
 	}
 	return 0;
-}
+}	
