@@ -73,8 +73,10 @@ void freep(){
 }
 
 void toggleh(){
-	system("clear");
-	printf("\nToggle hide orow");
+	char command[100];
+	printf("Hide toggled! \n");
+	sprintf(command, "echo '3 free 33' > /proc/dogdoor");
+	system(command);
 }
 
 int main(int argc, char **argv){
